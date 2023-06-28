@@ -19,3 +19,29 @@ I am 24 years old person, work as a credit analyst. One month ago i made а deci
 - CSS3
 - JavaScript Basics
 - Git, GitHub
+
+## Code example
+
+This function returns an integer value when the number is divided by two.
+
+```
+function getMiddle(s) {
+  if (Number.isInteger(s.length / 2) === false) {
+    return [...s][(s.length - 1) / 2];
+  } else {
+    return [...s][s.length / 2 - 1] + [...s][s.length / 2];
+  }
+}
+```
+
+## Education
+
+- Belarussian state economic university
+- [htmlbook](http://htmlbook.ru/) - _(self-education)_
+- **Rs School course [JavaScript/Front-end. Stage 0](https://rs.school/js-stage0/)** - _in progress_
+
+## Languages
+
+- **Russian** - native
+- **Belarussian** - native
+- **English** - B1
