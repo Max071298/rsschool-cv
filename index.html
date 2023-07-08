@@ -1,9 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyDocument</title>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="style.css" >
+    <title>Maksim Ryboltovskiy</title>
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="my-photo.jpg" alt="My photo" >
+        <div class="header-info">
+          <h1>Maksim Ryboltovskiy</h1>
+          <p>Trainee Front-end Developer</p>
+        </div>
+        <ul class="contacts">
+          <li>
+            <img src="icons/phone-icon.svg" alt="phone-icon" >
+            +375 (29) 209-79-91
+          </li>
+          <li>
+            <img src="icons/mail-icon.png" alt="mail-icon" >
+            maksimka.1998@inbox.ru
+          </li>
+          <li>
+            <img src="icons/tg-icon.svg" alt="tg-icon" >
+            @makson4ikkkkkkkk
+          </li>
+          <li>
+            <img src="icons/linkedin-icon.svg" alt="linkedin-icon" >
+            <a
+              href="https://www.linkedin.com/in/maksim-ryboltovskiy-08130b196/"
+              target="_blank"
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
+      </header>
+      <main>
+        <nav>
+          <ul class="navigation">
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#code">Code</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </nav>
+        <section class="panel" id="summary">
+          <h2>
+            <img src="icons/summary-icon.png" alt="summary-icon" >
+            Summary
+          </h2>
+          <p>
+            I am 24 years old person, work as a credit analyst. One month ago i
+            made а decision to become a web developer. Suddenly i have no
+            experience in Front-end development. But nowadays i try to study as
+            soon as possible to achieve my goal. All the free time i spending by
+            learning basics. This week i start my education at RS School on the
+            preparatory course (JS / FRONT-END. STAGE 0). In the future i want
+            to become a qualified specialist with deep knoweldge in my sphere
+            and take part in the creation of modern and high-tech products.
+          </p>
+        </section>
+        <section class="panel" id="education">
+          <h2>
+            <img src="icons/education-icon.png" alt="education-icon" >
+            Education
+          </h2>
+          <ul>
+            <li>
+              Belorussian state economic university<br >
+              <i>2016 - 2020</i>
+            </li>
+            <li>
+              JavaScript/Front-end. Stage 0 course (RS School)<br >
+              <i>June 2023 - now</i>
+            </li>
+          </ul>
+        </section>
+        <section class="panel" id="skills">
+          <h2>
+            <img src="icons/skills-icon.png" alt="skills-icon" >
+            Skills
+          </h2>
+          <ul class="skills">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Git, GitHub</li>
+          </ul>
+        </section>
+        <section class="panel" id="languages">
+          <h2>
+            <img src="icons/language-icon.png" alt="language-icon" >
+            Languages
+          </h2>
+          <ul>
+            <li>Russian - native</li>
+            <li>Belorussian - advanced</li>
+            <li>English - intermediate</li>
+          </ul>
+        </section>
+        <section class="panel" id="code">
+          <h2>
+            <img src="icons/code-icon.png" alt="code-icon" >
+            Code example
+          </h2>
+          <pre>
+            <code>
+  function getMiddle(s) {
+    if (Number.isInteger(s.length / 2) === false) {
+      return [...s][(s.length - 1) / 2];
+    } else {
+      return [...s][s.length / 2 - 1] + [...s][s.length / 2];
+    }
+  }
+            </code>
+          </pre>
+        </section>
+      </main>
+      <footer>
+        <a href="https://github.com/Max071298" target="_blank"
+          ><img src="icons/github-icon.png" alt="GitHub"
+        ></a>
+        <p>&copy; 2023</p>
+        <a href="https://rs.school/js-stage0/" target="_blank"
+          ><img
+            class="rs-school-img"
+            src="icons/rs_school_js.svg"
+            alt="RS school course"
+        ></a>
+      </footer>
+    </div>
+  </body>
 </html>
